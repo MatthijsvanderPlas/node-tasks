@@ -3,6 +3,11 @@ GET http://localhost:3000/api/v1/tasks HTTP/1.1
 
 ###
 POST http://localhost:3000/api/v1/tasks HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": ""
+}
 
 ###
 GET http://localhost:3000/api/v1/tasks/1 HTTP/1.1
