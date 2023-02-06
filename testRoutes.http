@@ -10,10 +10,16 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/api/v1/tasks/1 HTTP/1.1
+GET http://localhost:3000/api/v1/tasks/63e01164eca3f757b7c993d HTTP/1.1
 
 ###
-PATCH http://localhost:3000/api/v1/tasks/1 HTTP/1.1
+PATCH http://localhost:3000/api/v1/tasks/63e01164eca3f757b7c993d4 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Random task",
+  "completed": false
+}
 
 ###
-DELETE http://localhost:3000/api/v1/tasks/1 HTTP/1.1
+DELETE http://localhost:3000/api/v1/tasks/63e01451b4cfe809c9a32f94 HTTP/1.1
